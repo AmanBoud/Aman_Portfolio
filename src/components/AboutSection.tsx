@@ -89,7 +89,7 @@ export function AboutSection() {
                   <Briefcase size={16} className="text-secondary" />
                 </div>
                 <div className="glass-card-hover p-5">
-                  <span className="text-xs text-secondary font-medium">July - October 2024</span>
+                  <span className="text-xs text-secondary font-medium">July - October 2025</span>
                   <h3 className="font-semibold mt-1">AI Developer Intern</h3>
                   <p className="text-sm text-muted-foreground mt-1">
                     Adyatech Solutions LLP
@@ -106,7 +106,7 @@ export function AboutSection() {
                   <Briefcase size={16} className="text-primary-foreground" />
                 </div>
                 <div className="glass-card-hover p-5 border-primary/30">
-                  <span className="text-xs text-primary font-medium">November 2024 - Present</span>
+                  <span className="text-xs text-primary font-medium">November 2025 - Present</span>
                   <h3 className="font-semibold mt-1">Agentic AI Developer</h3>
                   <p className="text-sm text-muted-foreground mt-1">
                     Adyatech Solutions LLP
