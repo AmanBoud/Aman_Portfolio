@@ -5,7 +5,7 @@ const skillCategories = [
     title: 'Frontend',
     icon: Code,
     color: 'primary',
-    skills: ['HTML', 'CSS', 'JavaScript'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
   {
     title: 'Backend & AI',
@@ -23,7 +23,7 @@ const skillCategories = [
     title: 'Tools & Platforms',
     icon: Wrench,
     color: 'secondary',
-    skills: ['n8n', 'APIs', 'Git', 'VS Code'],
+    skills: ['n8n', 'APIs', 'GitHub', 'VS Code'],
   },
   {
     title: 'Databases',

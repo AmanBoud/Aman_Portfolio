@@ -1,5 +1,6 @@
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import profilePhoto from '@/assets/profile-photo.jpg';
 
 export function HeroSection() {
   return (
@@ -32,8 +33,12 @@ export function HeroSection() {
               {/* Glowing ring */}
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-secondary p-[2px] animate-pulse-glow">
                 <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                  <div className="w-[calc(100%-16px)] h-[calc(100%-16px)] rounded-full bg-gradient-to-br from-muted to-background flex items-center justify-center overflow-hidden">
-                    <span className="text-6xl md:text-7xl font-bold glow-text">AB</span>
+                  <div className="w-[calc(100%-16px)] h-[calc(100%-16px)] rounded-full overflow-hidden">
+                    <img 
+                      src={profilePhoto} 
+                      alt="Aman Boud" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
