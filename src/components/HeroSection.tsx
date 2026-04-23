@@ -76,7 +76,7 @@ export function HeroSection() {
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mb-8 animate-slide-up delay-500">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">7+</div>
+                <div className="text-2xl font-bold text-primary">10+</div>
                 <div className="text-xs text-muted-foreground">Months Exp.</div>
               </div>
               <div className="w-px h-12 bg-border" />
