@@ -1,6 +1,7 @@
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail, FileText, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profilePhoto from '@/assets/profile-photo.jpg';
+import resumeAsset from '@/assets/Aman_Boud_Resume.pdf.asset.json';
 
 export function HeroSection() {
   return (
