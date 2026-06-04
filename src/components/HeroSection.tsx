@@ -1,6 +1,7 @@
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail, FileText, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profilePhoto from '@/assets/profile-photo.jpg';
+import resumeAsset from '@/assets/Aman_Boud_Resume.pdf.asset.json';
 
 export function HeroSection() {
   return (
@@ -97,6 +98,18 @@ export function HeroSection() {
                 <a href="#projects">
                   View My Work
                   <ArrowRight className="ml-2" size={18} />
+                </a>
+              </Button>
+              <Button variant="glass" size="lg" asChild>
+                <a href={resumeAsset.url} target="_blank" rel="noopener noreferrer">
+                  <FileText className="mr-2" size={18} />
+                  View Resume
+                </a>
+              </Button>
+              <Button variant="glass" size="lg" asChild>
+                <a href={resumeAsset.url} download="Aman_Boud_Resume.pdf">
+                  <Download className="mr-2" size={18} />
+                  Download CV
                 </a>
               </Button>
               <Button variant="glass" size="lg" asChild>
