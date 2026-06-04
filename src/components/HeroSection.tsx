@@ -101,6 +101,18 @@ export function HeroSection() {
                 </a>
               </Button>
               <Button variant="glass" size="lg" asChild>
+                <a href={resumeAsset.url} target="_blank" rel="noopener noreferrer">
+                  <FileText className="mr-2" size={18} />
+                  View Resume
+                </a>
+              </Button>
+              <Button variant="glass" size="lg" asChild>
+                <a href={resumeAsset.url} download="Aman_Boud_Resume.pdf">
+                  <Download className="mr-2" size={18} />
+                  Download CV
+                </a>
+              </Button>
+              <Button variant="glass" size="lg" asChild>
                 <a href="#contact">Contact Me</a>
               </Button>
             </div>
