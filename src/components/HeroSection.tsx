@@ -66,7 +66,7 @@ export function HeroSection() {
             </h1>
 
             <h2 className="text-xl md:text-2xl text-muted-foreground font-medium mb-6 animate-slide-up delay-300">
-              Agentic AI Developer | AI Automation Specialist
+              AI Automation Developer | Agentic AI Enthusiast
             </h2>
 
             <p className="text-muted-foreground text-lg mb-8 animate-slide-up delay-400 font-body">
@@ -76,8 +76,8 @@ export function HeroSection() {
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mb-8 animate-slide-up delay-500">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">10+</div>
-                <div className="text-xs text-muted-foreground">Months Exp.</div>
+                <div className="text-2xl font-bold text-primary">1+</div>
+                <div className="text-xs text-muted-foreground">Year Exp.</div>
               </div>
               <div className="w-px h-12 bg-border" />
               <div className="text-center">

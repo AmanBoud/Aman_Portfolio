@@ -19,8 +19,8 @@ export function AboutSection() {
           {/* Bio Content */}
           <div className="space-y-6">
             <p className="text-muted-foreground text-lg leading-relaxed font-body">
-              I'm <span className="text-foreground font-medium">Aman Boud</span>, an Agentic AI Developer 
-              from <span className="text-primary">Ballari, Karnataka</span>. I hold a B.E. in Computer Science 
+              I'm <span className="text-foreground font-medium">Aman Boud</span>, an AI Automation Developer
+              from <span className="text-primary">Ballari, Karnataka</span>. I hold a B.E. in Computer Science
               with a First Class degree (8.24 CGPA) from VTU.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed font-body">
@@ -30,17 +30,18 @@ export function AboutSection() {
               intelligent assistants for education, healthcare, and customer support.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed font-body">
-              Currently working as an Agentic AI Developer at{' '}
-              <a 
-                href="https://adyatech.com/" 
-                target="_blank" 
+              Currently working as an AI Automation Developer at{' '}
+              <a
+                href="https://adyatech.com/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
                 Adyatech Solutions LLP
               </a>
-              , where I build multilingual AI chatbots, RAG-based agents, and automation solutions 
-              that deliver real business impact.
+              , where I build multilingual AI chatbots, RAG-based agents, and automation solutions
+              that deliver real business impact. I have a deep interest in Agentic AI and building
+              autonomous systems that can reason, plan, and execute tasks independently.
             </p>
 
             {/* Quick Info Cards */}
@@ -107,7 +108,7 @@ export function AboutSection() {
                 </div>
                 <div className="glass-card-hover p-5 border-primary/30">
                   <span className="text-xs text-primary font-medium">November 2025 - Present</span>
-                  <h3 className="font-semibold mt-1">Agentic AI Developer</h3>
+                  <h3 className="font-semibold mt-1">AI Automation Developer</h3>
                   <p className="text-sm text-muted-foreground mt-1">
                     Adyatech Solutions LLP
                   </p>
