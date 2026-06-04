@@ -28,32 +28,31 @@ export function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-background/85 backdrop-blur-xl border-b border-border'
+          ? 'bg-background/80 backdrop-blur-xl border-b border-border'
           : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="#home" className="flex items-center gap-2 group">
-            <span className="font-sans text-base font-bold tracking-tight">AB</span>
-            <span className="mono hidden sm:inline">/ Aman Boud</span>
+          <a href="#home" className="text-xl font-bold glow-text">
+            AB
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-7">
-            {navLinks.map((link, i) => (
+          <div className="hidden md:flex items-center gap-8">
+            {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="mono hover:text-foreground transition-colors duration-300 relative group"
+                className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300 relative group"
               >
-                <span className="text-muted-foreground/60 mr-1.5">{String(i + 1).padStart(2, '0')}.</span>
                 {link.label}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
               </a>
             ))}
           </div>
 
-          <Button variant="outline" size="sm" className="hidden md:flex" asChild>
+          <Button variant="glass" className="hidden md:flex" asChild>
             <a href="#contact">Let's Talk</a>
           </Button>
 

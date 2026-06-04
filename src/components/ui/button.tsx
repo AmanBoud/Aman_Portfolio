@@ -9,15 +9,15 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-foreground text-background hover:bg-foreground/90",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 hover:shadow-primary/40",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline: "border border-border bg-transparent text-foreground hover:border-muted-foreground/60",
-        secondary: "bg-muted text-foreground hover:bg-muted/80",
-        ghost: "hover:bg-muted/60 hover:text-foreground",
-        link: "text-foreground underline-offset-4 hover:underline",
-        glow: "bg-foreground text-background hover:bg-[hsl(214_20%_85%)] transition-colors",
-        glass: "border border-border bg-transparent text-foreground hover:border-muted-foreground/60",
-        gradient: "bg-foreground text-background hover:bg-[hsl(214_20%_85%)]",
+        outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+        ghost: "hover:bg-accent hover:text-accent-foreground",
+        link: "text-primary underline-offset-4 hover:underline",
+        glow: "bg-primary text-primary-foreground shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:scale-105",
+        glass: "bg-muted/50 backdrop-blur-md border border-primary/20 text-foreground hover:bg-muted/70 hover:border-primary/40",
+        gradient: "bg-gradient-to-r from-primary to-secondary text-primary-foreground hover:opacity-90 shadow-lg",
       },
       size: {
         default: "h-10 px-4 py-2",
