@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail, FileText, Download } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profilePhoto from '@/assets/profile-photo.jpg';
 import resumeAsset from '@/assets/Aman_Boud_Resume.pdf.asset.json';
@@ -93,17 +93,11 @@ export function HeroSection() {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8 animate-slide-up delay-600">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 mb-8 animate-slide-up delay-600">
               <Button variant="glow" size="lg" asChild>
                 <a href="#projects">
                   View My Work
                   <ArrowRight className="ml-2" size={18} />
-                </a>
-              </Button>
-              <Button variant="glass" size="lg" asChild>
-                <a href={resumeAsset.url} target="_blank" rel="noopener noreferrer">
-                  <FileText className="mr-2" size={18} />
-                  View Resume
                 </a>
               </Button>
               <Button variant="glass" size="lg" asChild>
